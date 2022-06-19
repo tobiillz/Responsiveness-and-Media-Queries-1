@@ -9,7 +9,7 @@ body{
 }
 main{
     display: flex;
-    margin: 0 auto
+    margin: 0 auto;
 }
 .form-background{
     width: 1440px;
@@ -18,6 +18,8 @@ main{
     background-image: url(/img/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     align-items: center;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
 }
 .banner-items{
     display: flex;
