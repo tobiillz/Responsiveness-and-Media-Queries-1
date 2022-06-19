@@ -1,0 +1,18 @@
+    
+    main{
+        display: flex;
+        margin: 0 auto
+    }
+    .form-background{
+        width: fit-content;
+        display: flex;
+        height: 100%;
+        background-image: url(/img/bg-intro-desktop.png) ;
+        background-repeat: repeat-y;
+        background-color: hsl(0, 100%, 74%);
+        /* align-items: center; */
+    }
+    .banner-items{
+        display: flex;
+        flex-direction: column;
+    }
