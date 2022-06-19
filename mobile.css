@@ -32,3 +32,11 @@ main{
     justify-content: center; */
     text-align: center;
 }
+h1{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+div p{
+    /* font-weight:400 ; */
+    font-size: small;
+}
