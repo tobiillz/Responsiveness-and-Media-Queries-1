@@ -15,7 +15,7 @@ main{
     width: 1440px;
     display: flex;
     height: 100vh;
-    background-image: url(/img/bg-intro-desktop.png) ;
+    background-image: url(/img/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     align-items: center;
 }

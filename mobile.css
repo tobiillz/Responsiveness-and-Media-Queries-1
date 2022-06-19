@@ -1,18 +1,34 @@
-    
-    main{
-        display: flex;
-        margin: 0 auto
-    }
-    .form-background{
-        width: fit-content;
-        display: flex;
-        height: 100%;
-        background-image: url(/img/bg-intro-desktop.png) ;
-        background-repeat: repeat-y;
-        background-color: hsl(0, 100%, 74%);
-        /* align-items: center; */
-    }
-    .banner-items{
-        display: flex;
-        flex-direction: column;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}  
+.form-background{
+    max-width: 600px;
+    display: flex;
+    min-height: 100% ;
+    background-image: url(/img/bg-intro-desktop.png) ;
+    background-color: hsl(0, 100%, 74%);
+    align-items: center;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+}
+.banner-items{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+}
+.form-text{
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
